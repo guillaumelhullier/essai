@@ -9,7 +9,7 @@
 
 <body>
     <?php
-echo "demain <br/> ";
+//echo "demain <br/> ";
 echo "train";
 ?>
 </body>
