@@ -12,10 +12,10 @@
     <?php
     $ville = "Lyon";
     $department = "Rhône";
-
-    $addition = 'La ville de ' .$ville. ' se trouve dans le département du ' .$department ;
+    $addition = 'La ville de ' .$ville. ' se trouve dans le département du ' .$department.'<br/>' ;
 //echo "demain <br/> ";
 echo $addition;
+echo "return True";
 ?>
 </body>
 
