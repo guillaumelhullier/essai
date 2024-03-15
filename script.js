@@ -1,5 +1,7 @@
 function sum(a) {
-  return a + 2;
+  return a + 1;
 }
 
-console.log(sum(2));
+console.log(sum(0));
+console.log(sum(10));
+console.log(sum(-2));
