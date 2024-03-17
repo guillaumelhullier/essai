@@ -11,10 +11,12 @@
 </head>
 
 <body>
-    <h1>Coucou les gens<h1>
-            <?php
+    <h1 class="essai">Coucou les gens<h1>
+            <p>
+                <?php
     echo "Demain est un autre jour";
     ?>
+            </p>
 </body>
 
 </html>
