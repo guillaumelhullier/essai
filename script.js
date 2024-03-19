@@ -1,12 +1,13 @@
 /**
- *
- * @param {number} age
+ *Fonction pour calculer cube d'un nombre
+ * @param {number} number
  * @returns
  */
-function calcAge(age) {
-  return age * 365;
+
+function cube(number) {
+  return number * number * number;
 }
 
-console.log(calcAge(65));
-console.log(calcAge(0));
-console.log(calcAge(20));
+console.log(cube(3));
+console.log(cube(5));
+console.log(cube(10));
