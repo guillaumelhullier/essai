@@ -1,13 +1,12 @@
 /**
  *
- * @param {number} a
- * @param {number} b
+ * @param {number} age
  * @returns
  */
-function area(a, b) {
-  return (a * b) / 2;
+function calcAge(age) {
+  return age * 365;
 }
 
-console.log(area(3, 2));
-console.log(area(7, 4));
-console.log(area(10, 10));
+console.log(calcAge(65));
+console.log(calcAge(0));
+console.log(calcAge(20));
