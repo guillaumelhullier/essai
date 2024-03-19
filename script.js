@@ -1,6 +1,6 @@
 /**
  *Fonction pour calculer cube d'un nombre
- * @param {number} number
+ * @param {nombre} number
  * @returns
  */
 
