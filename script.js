@@ -1,13 +1,13 @@
 /**
- *Fonction pour calculer cube d'un nombre
- * @param {nombre} number
+ * Fonction identifiant premier élément du tableau
+ * @param {array} table
  * @returns
  */
 
-function cube(number) {
-  return number * number * number;
+function getFirstValue(table) {
+  return table[0];
 }
 
-console.log(cube(3));
-console.log(cube(5));
-console.log(cube(10));
+console.log(getFirstValue([1, 2, 3]));
+console.log(getFirstValue([80, 5, 100]));
+console.log(getFirstValue([-500, 0, 50]));
