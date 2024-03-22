@@ -1,14 +1,13 @@
 /**
- * Fonction calculateur de puissance
- * @param {nombre} voltage
- * @param {nombre} current
+ * Fonction pour convertir heure en secondes
+ * @param {chiffre} hours
  * @returns
  */
 
-function circuitPower(voltage, current) {
-  return voltage * current;
+function howManySeconds(hours) {
+  return hours * 3600;
 }
 
-console.log(circuitPower(230, 10));
-console.log(circuitPower(110, 3));
-console.log(circuitPower(480, 20));
+console.log(howManySeconds(2));
+console.log(howManySeconds(10));
+console.log(howManySeconds(24));
