@@ -12,11 +12,14 @@
 
 <body>
     <h1 class="essai">Coucou les gens<h1>
-            <p>
-                <?php
-    echo "Demain est un autre jour";
+
+            <?php
+    function returnTrue(){
+return "true";
+    }
+    echo returnTrue();
     ?>
-            </p>
+
 </body>
 
 </html>
