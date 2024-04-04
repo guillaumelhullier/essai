@@ -14,10 +14,8 @@
     <h1 class="essai">Coucou les gens<h1>
 
             <?php
-    function returnTrue(){
-return "true";
-    }
-    echo returnTrue();
+    echo "Apprendre fonction PhP";
+
     ?>
 
 </body>
