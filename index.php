@@ -14,7 +14,11 @@
     <h1 class="essai">Coucou les gens<h1>
 
             <?php
-    echo "Apprendre fonction PhP";
+
+            function hello(){
+                return "hello edabit.com";
+            }
+    echo hello();
 
     ?>
 
