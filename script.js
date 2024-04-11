@@ -1,13 +1,13 @@
 /**
  *
- * @param {*} a
+ * @param {number} data
  * @returns
  */
 
-function convert(a) {
-  return a * 60;
+function addition(data) {
+  return data + 1;
 }
 
-console.log(convert(5));
-console.log(convert(3));
-console.log(convert(2));
+console.log(addition(0));
+console.log(addition(9));
+console.log(addition(-3));

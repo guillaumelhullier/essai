@@ -14,12 +14,12 @@
     <h1 class="essai">Coucou les gens<h1>
 
             <?php
-
-            function hello(){
-                return "hello edabit.com";
+            function addition($a,$b){
+                return $a + $b;
             }
-    echo hello();
-
+    echo addition(3,2).'<br/>';
+    echo addition(-3,-6).'<br/>';
+    echo addition(7,3).'<br/>';   
     ?>
 
 </body>
