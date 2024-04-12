@@ -12,16 +12,16 @@
 
 <body>
     <h1 class="essai">Coucou les gens<h1>
-
-            <?php
-            function addition($a,$b){
-                return $a + $b;
+            <p>
+                <?php
+            function addition($data){
+                return $data + 1;
             }
-    echo addition(3,2).'<br/>';
-    echo addition(-3,-6).'<br/>';
-    echo addition(7,3).'<br/>';   
+    echo addition(0).'<br/>';
+    echo addition(9).'<br/>';
+    echo addition(-3).'<br/>';   
     ?>
-
+            </p>
 </body>
 
 </html>

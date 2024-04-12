@@ -1,13 +1,14 @@
 /**
  *
- * @param {number} data
+ * @param {number} base
+ * @param {number} height
  * @returns
  */
 
-function addition(data) {
-  return data + 1;
+function triArea(base, height) {
+  return (base * height) / 2;
 }
 
-console.log(addition(0));
-console.log(addition(9));
-console.log(addition(-3));
+console.log(triArea(3, 2));
+console.log(triArea(7, 4));
+console.log(triArea(10, 10));
