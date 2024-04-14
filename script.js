@@ -1,14 +1,13 @@
 /**
  *
- * @param {number} base
- * @param {number} height
+ * @param {number} year
  * @returns
  */
 
-function triArea(base, height) {
-  return (base * height) / 2;
+function calcAge(year) {
+  return year * 365;
 }
 
-console.log(triArea(3, 2));
-console.log(triArea(7, 4));
-console.log(triArea(10, 10));
+console.log(calcAge(65));
+console.log(calcAge(0));
+console.log(calcAge(20));

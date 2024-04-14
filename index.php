@@ -14,12 +14,14 @@
     <h1 class="essai">Coucou les gens<h1>
             <p>
                 <?php
-            function addition($data){
-                return $data + 1;
+            function convert($data){
+                return $data*60;
             }
-    echo addition(0).'<br/>';
-    echo addition(9).'<br/>';
-    echo addition(-3).'<br/>';   
+
+    echo convert(5).'<br/>';
+    echo convert(3).'<br/>';
+    echo convert(2).'<br/>';
+    
     ?>
             </p>
 </body>
