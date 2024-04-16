@@ -1,13 +1,13 @@
 /**
  *
- * @param {number} year
+ * @param {number} data
  * @returns
  */
 
-function calcAge(year) {
-  return year * 365;
+function cubes(data) {
+  return data ** 3;
 }
 
-console.log(calcAge(65));
-console.log(calcAge(0));
-console.log(calcAge(20));
+console.log(cubes(3));
+console.log(cubes(5));
+console.log(cubes(10));
