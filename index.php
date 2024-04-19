@@ -15,12 +15,14 @@
         <?php
     
 function calcAge ($a){
-    return $a*365;
+    return $a*$a*$a;
 }
 
-echo calcAge(65).'</br>';
-echo calcAge(0).'</br>';
-echo calcAge(20).'</br>';
+echo calcAge(3).'</br>';
+echo calcAge(5).'</br>';
+echo calcAge(10).'</br>';
+
+
 
 
 

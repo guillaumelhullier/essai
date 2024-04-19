@@ -1,14 +1,13 @@
 /**
  *
- * @param {number} voltage
- * @param {number} current
+ * @param {number} data
  * @returns
  */
 
-function circuitPower(voltage, current) {
-  return voltage * current;
+function howManySeconds(data) {
+  return data * 3600;
 }
 
-console.log(circuitPower(230, 10));
-console.log(circuitPower(110, 3));
-console.log(circuitPower(480, 20));
+console.log(howManySeconds(2));
+console.log(howManySeconds(10));
+console.log(howManySeconds(24));
