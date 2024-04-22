@@ -14,16 +14,13 @@
     <p>
         <?php
     
-function calcAge ($a){
-    return $a*$a*$a;
+function triArea ($base,$height){
+    return $base*$height/2;
 }
 
-echo calcAge(3).'</br>';
-echo calcAge(5).'</br>';
-echo calcAge(10).'</br>';
-
-
-
+echo triArea(3,2).'</br>';
+echo triArea(7,4).'</br>';
+echo triArea(10,10).'</br>';
 
 
     ?>

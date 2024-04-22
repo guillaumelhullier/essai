@@ -1,13 +1,7 @@
-/**
- *
- * @param {number} data
- * @returns
- */
-
-function howManySeconds(data) {
-  return data * 3600;
+function nextEdge(side1, side2) {
+  return side1 + side2 - 1;
 }
 
-console.log(howManySeconds(2));
-console.log(howManySeconds(10));
-console.log(howManySeconds(24));
+console.log(nextEdge(8, 10));
+console.log(nextEdge(5, 7));
+console.log(nextEdge(9, 2));
