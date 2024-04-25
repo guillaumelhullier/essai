@@ -14,13 +14,22 @@
     <p>
         <?php
     
-function triArea ($base,$height){
-    return $base*$height/2;
+$side1=8;
+$side2=10;
+
+$variable= ($side1>0 AND $side2>0) ? ($side1+$side2-1): "Pas de réponse";
+
+echo $variable.'</br>';
+
+function nextEdge ($side1,$side2){
+    return $side1+$side2-1;
 }
 
-echo triArea(3,2).'</br>';
-echo triArea(7,4).'</br>';
-echo triArea(10,10).'</br>';
+echo nextEdge(8,10).'</br>';
+echo nextEdge(5,7).'</br>';
+echo nextEdge(9,2).'</br>';
+
+
 
 
     ?>
