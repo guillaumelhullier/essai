@@ -21,14 +21,13 @@ $variable= ($side1>0 AND $side2>0) ? ($side1+$side2-1): "Pas de réponse";
 
 echo $variable.'</br>';
 
-function nextEdge ($side1,$side2){
-    return $side1+$side2-1;
+function giveMeSomething ($a){
+    return 'something'. ' '.$a;
 }
 
-echo nextEdge(8,10).'</br>';
-echo nextEdge(5,7).'</br>';
-echo nextEdge(9,2).'</br>';
-
+echo giveMeSomething('is better than nothing').'</br>';
+echo giveMeSomething('Bob Jane').'</br>';
+echo giveMeSomething('something').'</br>';
 
 
 
