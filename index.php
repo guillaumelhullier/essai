@@ -13,21 +13,15 @@
     <h1>Bonjour à tous</h1>
     <p>
         <?php
-    
-$side1=8;
-$side2=10;
 
-$variable= ($side1>0 AND $side2>0) ? ($side1+$side2-1): "Pas de réponse";
 
-echo $variable.'</br>';
-
-function giveMeSomething ($a){
-    return 'something'. ' '.$a;
+function getFirstValue ($data){
+    return $data[0]."</br>";
 }
 
-echo giveMeSomething('is better than nothing').'</br>';
-echo giveMeSomething('Bob Jane').'</br>';
-echo giveMeSomething('something').'</br>';
+echo getFirstValue([1,2,3]);
+echo getFirstValue([80,5,10]);
+echo getFirstValue([-500,0,50]);
 
 
 
